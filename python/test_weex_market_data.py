@@ -23,9 +23,9 @@ from valuecell.agents.common.trading.data.market import SimpleMarketDataSource
 async def test_market_data():
     """测试市场数据获取"""
     # API 凭证（从测试脚本中获取）
-    api_key = "weex_0d7ed29358e4802ffbb1c9ce43296a37"
-    secret_key = "895d69f826c02de7e1a9cc25f7af36e6aefd47f014a44c590be0f293740d2093"
-    passphrase = "weex1234"
+    api_key = "xxxxxx"
+    secret_key = "xxxxxx"
+    passphrase = "xxxxxx"
 
     logger.info("=" * 60)
     logger.info("测试 Weex 交易所行情数据获取")

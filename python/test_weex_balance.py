@@ -43,9 +43,9 @@ from valuecell.agents.common.trading.models import (
 async def test_weex_balance():
     """测试 Weex 账户余额查询"""
     # 从环境变量获取 API 凭证
-    api_key = "weex_0d7ed29358e4802ffbb1c9ce43296a37"
-    secret_key = "895d69f826c02de7e1a9cc25f7af36e6aefd47f014a44c590be0f293740d2093"
-    passphrase = "weex1234"
+    api_key = "xxxxxx"
+    secret_key = "xxxxxx"
+    passphrase = "xxxxxx"
 
     if not all([api_key, secret_key, passphrase]):
         logger.error(
@@ -312,9 +312,9 @@ def main():
     )
 
     # 获取 API 凭证
-    api_key = "weex_0d7ed29358e4802ffbb1c9ce43296a37"
-    secret_key = "895d69f826c02de7e1a9cc25f7af36e6aefd47f014a44c590be0f293740d2093"
-    passphrase = "weex1234"
+    api_key = "xxxxxx"
+    secret_key = "xxxxxx"
+    passphrase = "xxxxxx"
 
     if not all([api_key, secret_key, passphrase]):
         logger.error("请设置 API 凭证")

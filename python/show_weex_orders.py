@@ -15,9 +15,9 @@ from valuecell.agents.common.trading.execution.weex_trading import WeexExecution
 async def show_open_orders(symbol: str = None):
     """查看当前委托订单"""
     # 从环境变量读取 API 凭证
-    api_key = "weex_0d7ed29358e4802ffbb1c9ce43296a37"
-    secret_key = "895d69f826c02de7e1a9cc25f7af36e6aefd47f014a44c590be0f293740d2093"
-    passphrase = "weex1234"
+    api_key = "xxxxxx"
+    secret_key = "xxxxxx"
+    passphrase = "xxxxxx"
 
     if not api_key or not secret_key or not passphrase:
         logger.error("请设置环境变量: WEEX_API_KEY, WEEX_SECRET_KEY, WEEX_PASSPHRASE")
